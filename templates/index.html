@@ -7,7 +7,7 @@
     <title>We Are Equal</title>
 
     <!--links-->
-    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="{{ url_for('assets', filename='style/main.css') }}">
 </head>
 <body>
     <!--head-->
@@ -19,7 +19,7 @@
             <li><a href="#faqs">FAQs</a></li>
         </ul>
         <a href="login.html" class="button log">Log In</a>
-        <script src="{{ url_for('assets', filename='style/main.css') }}"></script>
+        <script src="assets/script/main.js"></script>
     </header>
     <!--home-->
     <div class="container">
